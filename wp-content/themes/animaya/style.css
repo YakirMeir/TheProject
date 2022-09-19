@@ -1,0 +1,130 @@
+/*
+Theme Name: hairtech
+*/
+
+html,
+body {
+	border: none;
+	margin: 0;
+	padding: 0;
+    scroll-behavior: smooth;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+address,
+big,
+cite,
+code,
+em,
+font,
+img,
+small,
+strike,
+sub,
+sup,
+li,
+ol,
+ul,
+fieldset,
+form,
+label,
+legend,
+button,
+table,
+caption,
+tr,
+th,
+td {
+	border: none;
+	font-size: inherit;
+	line-height: inherit;
+	margin: 0;
+	padding: 0;
+	text-align: inherit;
+}
+
+blockquote::before,
+blockquote::after {
+	content: "";
+}
+
+
+
+
+
+
+
+
+
+.all-the-paginat-links{
+
+}
+.inside-the-post-title{
+    font-size: 35px;
+}
+.all-the-post-count{
+    margin: 0 4px 4px 0;
+    font-size: 14px;
+}
+.the-filter-title{
+    text-align: center;
+    font-size: 22px;
+    color: #575757;
+    font-weight: 700;
+}
+.all-the-filter {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 20px 0 40px 0;
+}
+.all-the-filter .single-filter.active {
+    color: #fff;
+    background-color: #007bff;
+    border: solid 1px #007bff;
+    padding: 2px 22px;
+    border-radius: 3px;
+    cursor: pointer;
+    transition: all 0.5s;
+}
+.all-the-filter .single-filter.active a{
+    color: #fff;
+    text-decoration: none;
+}
+.all-the-filter .single-filter.active:hover {
+    background-color: #77b0ee;
+    border-color: #77b0ee;
+}
+.all-the-filter .single-filter {
+    color: #0d1820;
+    background-color: #ffffff;
+    border: solid 1px #007bff;
+    padding: 2px 22px;
+    border-radius: 3px;
+    cursor: pointer;
+    transition: all 0.5s;
+    margin: 0 0 0 10px;
+}
+.all-the-filter .single-filter a{
+    color: #0d1820;
+    text-decoration: none;
+}
+.all-the-filter .single-filter:hover {
+    background-color: #ddedff;
+    border-color: #77b0ee;
+}
+
+@media screen and (max-width: 500px) {
+
+   
+
+}
+
+
